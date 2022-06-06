@@ -13,6 +13,13 @@ export class TextInputComponent implements OnInit {
   @Input()
   size: 'sm' | 'md' | 'lg' = 'md';
 
+  @Input()
+  type: 'success' | 'danger' | 'warning' | 'none' = 'success';
+
+
+  @Input()
+  helperText: string | null = null;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -24,7 +31,11 @@ export class TextInputComponent implements OnInit {
   }
 
   public get classes(): string[] {
-    return ['storybook-input', `storybook-input--${this.size}`];
+    return ['storybook-input', `storybook-input--${this.size}`, `storybook-input--${this.type}`];
+  }
+
+  public get helperTextClasses(): string[] {
+    return ['storybook-helper-text', 'mt-2'];
   }
 
 }

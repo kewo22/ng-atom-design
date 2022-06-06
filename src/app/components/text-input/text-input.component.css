@@ -6,14 +6,29 @@
 }
 
 .storybook-input {
-  width: 100%;
-  border: 1px solid #ced4da;
   outline: none;
   font-weight: 400;
+  width: 100%;
+}
+
+.storybook-input--none {
+  border: 1px solid #ced4da;
+}
+
+.storybook-input--success {
+  border: 1px solid #157347;
+}
+
+.storybook-input--danger {
+  border: 1px solid #dc3545;
+}
+
+.storybook-input--warning {
+  border: 1px solid #ffc107;
 }
 
 .storybook-input--sm {
-  padding: 0.375rem 0.75rem;
+  padding: 0.2rem;
   font-size: 12px;
 }
 
@@ -25,4 +40,11 @@
 .storybook-input--lg {
   padding: 0.6rem;
   font-size: 16px;
+}
+
+.storybook-helper-text {
+  font-size: 12px;
+  color: #b74444;
+  font-weight: bold;
+  margin-top: 0.2em;
 }

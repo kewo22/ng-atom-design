@@ -1,0 +1,762 @@
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.19
+
+TypeScript version used by Compodoc : 4.5.5
+
+TypeScript version of current project : 4.6.2
+
+Node.js version : v14.17.4
+
+Operating system : Windows 10
+
+[15:48:09] No configuration file found, switching to CLI flags.
+[15:48:10] Using tsconfig file : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\tsconfig.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.browserslistrc
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.gitignore
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.editorconfig
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\angular.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\build-storybook.log
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\documentation.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\karma.conf.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\package-lock.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\package.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\README.md
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\tsconfig.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\tsconfig.app.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\tsconfig.spec.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.storybook\main.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.storybook\preview.js
+[15:48:10] Ignoring       : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.storybook\typings.d.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.storybook\tsconfig.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\225.672849de.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.vscode\extensions.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.vscode\launch.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.vscode\tasks.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\291.c78f2b76.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\256.423e4cb92ea770c00030.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\345.e3a9599a.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\291.c78f2b76.iframe.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\295.b3f202b52484de13adc3.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\366.7d74fe3e.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\366.7d74fe3e.iframe.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\378.fdc55ac5.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\378.fdc55ac5.iframe.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\39.de503f5b.iframe.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\39.de503f5b.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\409.55fd6b58c215d3832af6.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\468.3ba6e19563ad9e5d5f69.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\409.55fd6b58c215d3832af6.manager.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\468.3ba6e19563ad9e5d5f69.manager.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\471.1e79435d.iframe.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\471.1e79435d.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\528.1ced51e0d3024cc96150.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\528.1ced51e0d3024cc96150.manager.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\551.9d9ecc794e19f99de1ba.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\675.5535d1f01ec1b74226c8.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\675.5535d1f01ec1b74226c8.manager.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\974.90f9804d7222f748fbd4.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\747.1a464f26.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\987.7786aee4.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\987.7786aee4.iframe.bundle.js.map
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\987.7786aee4.iframe.bundle.js.LICENSE.txt
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\996.20e1abe2.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\favicon.ico
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\iframe.html
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\index.html
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\main.60b8ca6d.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\main.css
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\main.ec6a6161c5b1598430e7.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\project.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\runtime~main.69fe4f57dbc0c196b9f2.manager.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\storybook-static\runtime~main.118be746.iframe.bundle.js
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\favicon.ico
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\index.html
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\main.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\polyfills.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\test.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\styles.css
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\app-routing.module.ts
+[15:48:10] Ignoring       : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\app.component.spec.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\app.component.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\app.module.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\assets\.gitkeep
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\environments\environment.prod.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\app.component.html
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\environments\environment.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\app.component.css
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\02b336e3281963804bedab72c61572d2.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\0368c13690300728299ed2bbf5113894.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\041e45393da2eddb057c6af9dfc68037.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\0afdc3e9a829c91454bdd75b9c293a15.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\0b99c4c152579c152afc85b1a659ef99.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\0dabec8c0c3a0686530b3a2f86967921.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\043ec5ac14e68973048f040dc4d75665.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\0c65743d2498122ca280574ae18bcf99.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\0ba1e9526f18c830ec786076ef8480f0.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\13327405488272130d1aa3f3f3cce75c.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\13b681aa6c3c4e14e0c9e1c9d259dac5.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\1cd43e1624a7718e23c04b67a20f3718.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\1a22ea5b0b887fce78f24d7cd1f3b66f.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\18d038743f9532818faa9e4085b4e0fc.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\1f7b964513fd9021982a8c648659af44.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\1edf0f82b365930aa6ebc8149236af66.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2121921a424ef56a949a1382f26146b6.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\21eea08d7f01a766008ff0a7734d0b38.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2617b141f6324bc5d797c03f9a5401a2.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\28307e3e11edad42887fa5d4574f55dc.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\28e9de73e335472629e7405929e362f3.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\28ebe038725fefce722f8b8ffceb77cb.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2976eb46211d56d58ae8652544fef7bf.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2a67b3efbfcdefed1929f433a05df1a8.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2b979c89205dca92762eb29d543a2198.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2eeb62971d4e25628bf71239652da081.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2f210ce9b5667941031ca22422b96eba.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\3213f799b2c80108dd9adb462aea150d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\32242ec8c072c278d8da929eabfe95eb.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\2b6898e66d8da207c695394e539dbdb7.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\3835f5aa45fe89b695127bb03f805771.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\364985066d2b6b447f2f3d9c17fc0cfc.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\333ae29516107d2cac8d8d3962bde5bc.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\38745749a770077a3e8d52f8c4123a3d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\39e9180f22bc6d67c839e03e872a6ad2.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\3ca5e69f00795666f70419775dfe17ed.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\3b5741e6fab1f3ad870f1d7ef339725b.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\3dc3b10874f59031abcc86f1973e6ea4.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\3f8ce48036115e8a4dafd1e840495449.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\42af5cf323bede34349726357675b3fb.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\3fde458cf6d2af9c6815a8f79e4454b2.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\4913da6034836a8d4427cd7a00a3cf7c.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\586b7b06746f12ba351c800b67df16c1.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\4dde2f524f0aa50a42d5843e15aa95cf.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\59a3949279e5a4821ca3fb73a5c94c3d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\526fbc585a420ac07679242e72ba686b.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\4ae91a727120337f34896cbe401b05e7.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\59e08cf013dc89066d2b674375b9d52c.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\5b00351fe99c723aa48f57b7eeb63a16.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\5b0734c2acc052e74620d01408808883.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\5b87bac254bae6bac308fb29c2659c2f.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\5dd8a1314469201ef321077d40ccd3d9.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\60e5ade9b678083d675955f9efe58003.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\60ae3a24e7381a1417aa3170de100522.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\69a9281dbafc6a7e6a8f716c4210e737.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\6163dcbe51a3fc7f85f82f8dbd14f6cf.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\5daf15bee2894be9370388e09f8f1736.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\6a9df1b4dcc8bcb3e3bb9a5047d91ab8.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\6aa37ad96522a88c7bb29152fa9b32b8.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\711a43ccad87b9d6067567750c2cce14.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\750063240452630baf2770a63adecde9.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\76bda6293d05de19aa63efa299468bc2.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\7731e83e60af6b80d46b6473b2175fc5.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\794d48f0a67a3a45e3d8f5017eaacdcc.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\780f021d72cd0f6739f16fd6cfea1472.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\7d287dbc9494d0aa3f5dbe551145bb9e.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\7b73f7798c118d4cc1788b71506f6878.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\814c0042c0a8b798583d847cc51ed030.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\81cfaf89f7541c1a17462d2f0a0148a6.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\820612e935c32d89effff03e3d49cc68.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\81feab1f3afd515bc4151a116ffa60b1.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\8147256d357b7cd13c4009b88493fc7c.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\83110791e0c14dbc3a32ba0ad25236f6.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\87be603fd5bcc7f36caf834fccf62ae0.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\8a20cfa0def070f63ca6cadfa607269f.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\88bb26bb301dffca9d45f1d7b837888f.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\898f3e20ec0a7bbfc8e8f610ed8f5475.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\8a7dade4549b2a063904f444c88fd89f.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\8b558f2436de0784b19d401871f02e0d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\8b84d1b4c7977bccd0a68be9af536abb.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\8f339aec3c0cd9406c0b088428726ce5.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\945d7fa93f76639acb44d2bd1a22b765.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\96160b7d4c122cc08e701e8dbbde7951.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\974c0efeb54aa34ac0502214e0d64e0c.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\9752ce32dd9d978992e5c5d5d030a743.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\98649c42a871c5bc192420928b43f059.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\98efb5cbd2a836084f35ff89eb20bf0d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\9c5943ff7e44fbab634afab687167d4a.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\9da65a1e2913e2e17ee481c1fd24b244.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a03e9dab25de7a741b1a2320b5170dae.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a06a0fdf638f7f9d6b387f5bf2238fb2.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a19e88d946b784b8da15bbd46b42dd99.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a5a78c616915914f591ee3fdaa74c22b.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a66c3ce6c5d6f97ca35df74e61c9b698.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a928caf47a9001f260758773317e30bb.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a969da0148d1c39e7a1a61ff5ec978f1.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\a974d79d760647d2a02a374530527fa3.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\ad0a9ea8b0814b59f557f2d50f211a38.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\aaf74cd3c61ff208b494aeeb69061234.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\af126d6bd2b2203decfd73c72a6c34f1.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\af17d0aceeacbc5cc5e7b1acae198aa6.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b1a6cc68219329b5b57f1b7cc0f5f5f0.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b1d8fa18a585f493a3de5896f48c5049.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b3ca0602a342c4415483137052fd337d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b4410b7d1fd1f5b0e1daaa25ed332034.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b7fdd058336b0ffde25c179602ecfbdd.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b3cbeacb2408a55290be3e63cd52d04b.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b82cc6c7672e86746ad9f31d3b546976.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b8db582d4b6153d9b9c26b91ff9b24a1.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b903e12deedc727f4db71bc3b19fe73f.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\b843b4795f08afc588e98667577836d6.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\bf563c03bf71c23a125d4585838b5d9c.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\c36033b99742cdd23b7bde5f8366f444.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\c1752ce430cfa495795b6350a4137e4d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\c30a323b1f822855c6c91624f7d727c1.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\c56a2a25887870095bc4b1180fc01a4d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\c4c6d0b363f8d4cc6ac0ab2586816817.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\c6290e5e9cfb9ae6fb91b01a90260574.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\cae20bf2029dad2a2a235c774748d7ee.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\c8933cac04f7acd56f492dfb92536e57.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\cb98ce224abf7587f355998532c1848d.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\cb16ef163bd760f375c7591e413d07a6.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\cc6d77e147dab42eac1d2ec77c9f0caf.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\cbf0950e1a53faf57143a7b392edf119.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\cd7feb073a07c8334fdebab157943f22.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\d8ef8582a366d49995fdeaeead371b5a.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\d47cc91424d61d11d6d6b3f4e7feb986.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\da4b7363398a820b1dfa79449fa63975.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\df30d7eaaabc7890a02c43138bce204a.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\dfe84d229f304e67c75ce3f723d051d4.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\e0daa8708b28ea091f42485f4f514819.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\e267bf670f03f659275c6f5cfa7c5f93.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\e091a5ddd51965615859d599f8dd013b.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\e68bc9dfbe0ca4ed0bc2eb41433af988.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\e94d1709390b6a040fb835f5b742bf0b.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\ef11d8c42a602dc7ab8019b1b72bd438.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\ead8b50f2d68691c903213f7b1dd585f.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\ec6bff2be62c23928697a6b2d8a2a08a.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f22d48c4f1ff9ab35d7496e9fb13d2a3.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f2ff8a9312f88caba438a67863fab537.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f49752e026e8e98ad68d8c7cf6b00aa6.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f325c64970566f49dce94a537c297317.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f3a05b7606574e0072bc59a57cbcd566.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f7a0d8492460e340db33b94c9a280592.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f4de58b6d9ffe2b7943873ba1fceb7ab.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f849653eba5e2d73a95b603e1ba2f73c.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\f9225cbfd8ac0b763cf1bdc4bb50eda8.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\fb1aad76748f142338319dd6d5aa6087.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\fb9586123ae3066340f5a86f042ee988.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\fd4352078ec50a86e3b3522ffee345dc.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\button\button.component.html
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\fdeb1b49c0f67874a6c8a486d8ad8e08.json
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\button\button.component.scss
+[15:48:10] Ignoring       : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\button\button.component.spec.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\button\button.component.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.angular\cache\13.3.7\babel-webpack\fea7d23c02a1957b08a90b3182f1ef45.json
+[15:48:10] Ignoring       : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\link\link.component.spec.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\link\link.component.css
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\link\link.component.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\link\link.component.html
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\text-input\text-input.component.css
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\text-input\text-input.component.html
+[15:48:10] Ignoring       : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\text-input\text-input.component.spec.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\text-input\text-input.component.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\button\stories\button.stories.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\link\stories\link.stories.ts
+[15:48:10] Including      : C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\src\app\components\text-input\stories\text-input.stories.ts
+[15:48:10] Searching package.json file
+[15:48:10] package.json file found
+[15:48:10] Processing package.json dependencies
+[15:48:10] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[15:48:10] README.md file found
+[15:48:10] Error during C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\CHANGELOG read
+[15:48:10] Continuing without CHANGELOG.md file
+[15:48:10] Error during C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\CONTRIBUTING read
+[15:48:10] Continuing without CONTRIBUTING.md file
+[15:48:10] Error during C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\LICENSE read
+[15:48:10] Continuing without LICENSE.md file
+[15:48:10] Error during C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\TODO read
+[15:48:10] Continuing without TODO.md file
+[15:48:10] Get dependencies data
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/main.ts
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/polyfills.ts
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/test.ts
+[15:48:15] found          : require
+[15:48:15] found          : context
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/app-routing.module.ts
+[15:48:15] Analysing routes definitions and clean them if necessary
+[15:48:15] found          : AppRoutingModule
+[15:48:15]                : - imports:
+[15:48:15]                : 	- RouterModule
+[15:48:15]                : - exports:
+[15:48:15]                : 	- RouterModule
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/app.component.ts
+[15:48:15] found          : AppComponent
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/app.module.ts
+[15:48:15] found          : AppModule
+[15:48:15]                : - imports:
+[15:48:15]                : 	- BrowserModule
+[15:48:15]                : 	- AppRoutingModule
+[15:48:15]                : - declarations:
+[15:48:15]                : 	- AppComponent
+[15:48:15]                : 	- LinkComponent
+[15:48:15]                : 	- ButtonComponent
+[15:48:15]                : 	- TextInputComponent
+[15:48:15]                : - bootstrap:
+[15:48:15]                : 	- AppComponent
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/environments/environment.prod.ts
+[15:48:15] found          : environment
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/environments/environment.ts
+[15:48:15] found          : environment
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/components/button/button.component.ts
+[15:48:15] found          : ButtonComponent
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/components/link/link.component.ts
+[15:48:15] found          : LinkComponent
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/components/text-input/text-input.component.ts
+[15:48:15] found          : TextInputComponent
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/components/button/stories/button.stories.ts
+[15:48:15] found          : Template
+[15:48:15] found          : Primary
+[15:48:15] found          : Secondary
+[15:48:15] found          : Success
+[15:48:15] found          : Danger
+[15:48:15] found          : Warning
+[15:48:15] found          : Info
+[15:48:15] found          : Light
+[15:48:15] found          : Dark
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/components/link/stories/link.stories.ts
+[15:48:15] found          : Template
+[15:48:15] found          : Base
+[15:48:15] parsing        : C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/components/text-input/stories/text-input.stories.ts
+[15:48:15] found          : Template
+[15:48:15] found          : Small
+[15:48:15] found          : Medium
+[15:48:15] found          : Large
+[15:48:15] -------------------
+[15:48:15] Project statistics 
+[15:48:15] - files      : 235
+[15:48:15] - module     : 2
+[15:48:15] - component  : 4
+[15:48:15] -------------------
+[15:48:15] Prepare components
+[15:48:15]  AppComponent has a templateUrl, include it
+[15:48:15]  AppComponent has styleUrls, include them
+[15:48:15]  ButtonComponent has a templateUrl, include it
+[15:48:15]  ButtonComponent has styleUrls, include them
+[15:48:15]  LinkComponent has a templateUrl, include it
+[15:48:15]  LinkComponent has styleUrls, include them
+[15:48:15]  TextInputComponent has a templateUrl, include it
+[15:48:15]  TextInputComponent has styleUrls, include them
+[15:48:15] Prepare modules
+[15:48:15] Process routes
+[15:48:15] Prepare miscellaneous
+[15:48:15] Process documentation coverage report
+[15:48:15] Generating documentation in export format json
+[15:48:15] Documentation generated in ./ in 5.977 seconds
+info @storybook/angular v6.5.6
+info 
+info => Cleaning outputDir: C:\Users\KEWINF~1\AppData\Local\Temp\chromatic--35640-8H7n3sk2OPKI
+info => Loading presets
+info => Compiling manager..
+info => Compiling preview..
+info Addon-docs: using MDX1
+info => Using implicit CSS loaders
+info => Loading angular-cli config for angular >= 13.0.0
+info => Using angular project with "tsConfig:C:\Users\KewinFernando\Desktop\AngularApps\ng-atom-design\.storybook\tsconfig.json"
+WARN Your Storybook startup uses a solution that will not be supported in version 7.0. 
+WARN You must use angular builder to have an explicit configuration on the project used in angular.json
+WARN Read more at:
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#sb-angular-builder)
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular13)
+info => Using angular project "ng-atom-design:build" for configuring Storybook
+info => Using default Webpack5 setup
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 1% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile angular-compiler
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation CopyPlugin
+<s> [webpack.Progress] 8% setup compilation angular-compiler
+<s> [webpack.Progress] 8% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation named-chunks-plugin
+<s> [webpack.Progress] 9% setup compilation DedupeModuleResolvePlugin
+<s> [webpack.Progress] 9% setup compilation AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 9% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 9% setup compilation SuppressExtractedTextChunks
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation ProvidePlugin
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building 0/17 entries 2/26 dependencies 0/2 modules
+<s> [webpack.Progress] 10% building 0/17 entries 3/27 dependencies 0/2 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
+<s> [webpack.Progress] 10% building 0/17 entries 14/27 dependencies 0/14 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
+<s> [webpack.Progress] 10% building 0/17 entries 14/27 dependencies 0/14 modules
+<s> [webpack.Progress] 10% building 0/17 entries 27/28 dependencies 0/27 modules
+<s> [webpack.Progress] 13% building 1/17 entries 84/127 dependencies 5/47 modules
+<s> [webpack.Progress] 13% building 1/17 entries 193/228 dependencies 14/104 modules
+<s> [webpack.Progress] 16% building 2/17 entries 193/228 dependencies 15/104 modules
+<s> [webpack.Progress] 19% building 3/17 entries 438/542 dependencies 63/153 modules
+<s> [webpack.Progress] 19% building 3/17 entries 500/555 dependencies 66/184 modules
+<s> [webpack.Progress] 19% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
+<s> [webpack.Progress] 19% building 3/17 entries 611/699 dependencies 80/216 modules
+<s> [webpack.Progress] 19% building 3/17 entries 800/962 dependencies 87/257 modules
+<s> [webpack.Progress] 19% building 3/17 entries 1000/1212 dependencies 118/303 modules
+<s> [webpack.Progress] 22% building 4/17 entries 1375/1784 dependencies 207/376 modules
+<s> [webpack.Progress] 22% building 4/17 entries 1400/1784 dependencies 207/382 modules
+<s> [webpack.Progress] 22% building 4/17 entries 1937/1961 dependencies 220/600 modules
+<s> [webpack.Progress] 22% building import loader ./node_modules/resolve-url-loader/index.js
+<s> [webpack.Progress] 22% building import loader ./node_modules/sass-loader/dist/cjs.js
+<s> [webpack.Progress] 22% building 4/17 entries 1952/1961 dependencies 220/615 modules
+<s> [webpack.Progress] 22% building 4/17 entries 2100/2432 dependencies 294/622 modules
+<s> [webpack.Progress] 22% building 4/17 entries 2400/2456 dependencies 303/651 modules
+<s> [webpack.Progress] 22% building 4/17 entries 2900/2964 dependencies 326/697 modules
+<s> [webpack.Progress] 22% building 4/17 entries 3500/3547 dependencies 385/895 modules
+<s> [webpack.Progress] 22% building 4/17 entries 3938/3968 dependencies 545/1000 modules
+<s> [webpack.Progress] 22% building 4/17 entries 4700/4797 dependencies 671/1119 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5077/5110 dependencies 849/1200 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5400/5472 dependencies 983/1286 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5700/5797 dependencies 1107/1353 modules
+<s> [webpack.Progress] 22% building 4/17 entries 5900/5954 dependencies 1180/1393 modules
+<s> [webpack.Progress] 23% building 4/17 entries 6200/6227 dependencies 1239/1439 modules
+<s> [webpack.Progress] 26% building 5/17 entries 6338/6351 dependencies 1365/1463 modules
+<s> [webpack.Progress] 29% building 6/17 entries 6338/6351 dependencies 1366/1463 modules
+<s> [webpack.Progress] 32% building 7/17 entries 6338/6351 dependencies 1367/1463 modules
+<s> [webpack.Progress] 35% building 8/17 entries 6338/6351 dependencies 1368/1463 modules
+<s> [webpack.Progress] 39% building 9/17 entries 6338/6351 dependencies 1369/1463 modules
+<s> [webpack.Progress] 42% building 10/17 entries 6338/6351 dependencies 1370/1463 modules
+<s> [webpack.Progress] 45% building 11/17 entries 6338/6351 dependencies 1371/1463 modules
+<s> [webpack.Progress] 48% building 12/17 entries 6338/6351 dependencies 1372/1463 modules
+<s> [webpack.Progress] 52% building 13/17 entries 6474/6484 dependencies 1431/1484 modules
+<s> [webpack.Progress] 55% building 14/17 entries 6541/6553 dependencies 1464/1514 modules
+<s> [webpack.Progress] 58% building 15/17 entries 6576/6577 dependencies 1503/1527 modules
+<s> [webpack.Progress] 61% building 16/17 entries 6576/6577 dependencies 1503/1527 modules
+<s> [webpack.Progress] 65% building 17/17 entries 6578/6578 dependencies 1528/1528 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph angular-compiler
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids NamedModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
+<s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+info => Manager built (48 s)
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.4838a277.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.4838a277.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.85c658c2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.85c658c2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.827011b0.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.827011b0.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 366.92292687.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 366.92292687.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 378.28c5a840.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 378.28c5a840.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.8a7884a6.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.8a7884a6.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.37221b7d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.37221b7d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.e3fe5715.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.e3fe5715.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.81b00d02.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.81b00d02.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.e9bc5289.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.e9bc5289.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.f0f70343.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.f0f70343.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 987.21aa1721.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 987.21aa1721.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 987.21aa1721.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 987.21aa1721.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.1aed6908.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.1aed6908.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.118be746.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.118be746.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.1a464f26.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.1a464f26.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.e3a9599a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.e3a9599a.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.20e1abe2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.20e1abe2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.672849de.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.672849de.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 366.7d74fe3e.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 366.7d74fe3e.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 378.fdc55ac5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 378.fdc55ac5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.1e79435d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.1e79435d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.de503f5b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.de503f5b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.c78f2b76.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.c78f2b76.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+info => Preview built (57 s)
+WARN C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/app-routing.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/KewinFernando/Desktop/AngularApps/ng-atom-design/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   366.7d74fe3e.iframe.bundle.js (601 KiB)
+WARN   471.1e79435d.iframe.bundle.js (791 KiB)
+WARN   987.7786aee4.iframe.bundle.js (2.75 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (2.83 MiB)
+WARN       runtime~main.118be746.iframe.bundle.js
+WARN       987.7786aee4.iframe.bundle.js
+WARN       main.css
+WARN       main.1aed6908.iframe.bundle.js
+WARN 
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+info => Output directory: C:\Users\KEWINF~1\AppData\Local\Temp\chromatic--35640-8H7n3sk2OPKI

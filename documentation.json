@@ -369,7 +369,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  width: 100%;\r\n  border: 1px solid #ced4da;\r\n  outline: none;\r\n  font-weight: 400;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 12px;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.4rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.6rem;\r\n  font-size: 16px;\r\n}\r\n",
+                    "data": ".storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  width: 100%;\r\n  border: 1px solid #ced4da;\r\n  outline: none;\r\n  font-weight: 400;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.2rem;\r\n  font-size: 12px;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.4rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.6rem;\r\n  font-size: 16px;\r\n}\r\n",
                     "styleUrl": "./text-input.component.css"
                 }
             ],
@@ -658,11 +658,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/text-input/stories/text-input.stories.ts",
+                "file": "src/app/components/button/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<TextInputComponent>",
-                "defaultValue": "(args: TextInputComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<ButtonComponent>",
+                "defaultValue": "(args: ButtonComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Template",
@@ -678,11 +678,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/button/stories/button.stories.ts",
+                "file": "src/app/components/text-input/stories/text-input.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<ButtonComponent>",
-                "defaultValue": "(args: ButtonComponent) => ({\r\n  props: args,\r\n})"
+                "type": "Story<TextInputComponent>",
+                "defaultValue": "(args: TextInputComponent) => ({\r\n  props: args,\r\n})"
             },
             {
                 "name": "Warning",

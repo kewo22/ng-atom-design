@@ -49,3 +49,11 @@ Large.args = {
   label: 'Label',
   size: 'lg'
 };
+
+export const HelperText = Template.bind({});
+// More on args: https://storybook.js.org/docs/angular/writing-stories/args
+HelperText.args = {
+  label: 'Label',
+  size: 'md',
+  helperText: 'Required'
+};

@@ -1,4 +1,5 @@
 <div [class]="wrapperClasses">
     <label for="">{{label}}</label>
     <input type="text" [class]="classes">
+    <span *ngIf="helperText" [class]="helperTextClasses">{{helperText}}</span>
 </div>
