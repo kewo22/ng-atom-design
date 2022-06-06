@@ -206,109 +206,8 @@
             "templateData": "<button [ngClass]=\"classes\" (click)=\"onClick($event)\" [disabled]=\"disabled\">\n    {{label}}\n</button>"
         },
         {
-            "name": "LinkComponent",
-            "id": "component-LinkComponent-66da1d34ac18388f6ed69f8069417dd3ad7cc66bd567b2bd009d80ccd0fd799373cad455caf60a4ae17e08242298d397ec4c2b89e6ee7cf76e744b6b738d9690",
-            "file": "src/app/components/link/link.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-link",
-            "styleUrls": [
-                "./link.component.css"
-            ],
-            "styles": [],
-            "templateUrl": [
-                "./link.component.html"
-            ],
-            "viewProviders": [],
-            "inputsClass": [
-                {
-                    "name": "color",
-                    "defaultValue": "'primary'",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 11,
-                    "type": "\"primary\" | \"secondary\"",
-                    "decorators": []
-                },
-                {
-                    "name": "href",
-                    "defaultValue": "''",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 13,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "target",
-                    "defaultValue": "'_self'",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 15,
-                    "type": "\"_self\" | \"_blank\" | \"_parent\" | \"_top\"",
-                    "decorators": []
-                }
-            ],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 23,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-link',\n  templateUrl: './link.component.html',\n  styleUrls: ['./link.component.css']\n})\nexport class LinkComponent implements OnInit {\n\n  @Input()\n  color: 'primary' | 'secondary' = 'primary';\n  @Input()\n  href: string = '';\n  @Input()\n  target?: '_self' | '_blank' | '_parent' | '_top' = '_self';\n\n  public get classes(): Array<string> {\n    return ['link', `${this.color}-link`];\n  }\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": [
-                {
-                    "data": ".link {\r\n  text-decoration: none;\r\n  border-bottom: 1px dotted;\r\n  @media screen and (min-width: 600px) {\r\n    font-size: 1.15em;\r\n  }\r\n}\r\n.primary-link {\r\n  color: #ff4785;\r\n  border-color: #ff4785;\r\n}\r\n.secondary-link {\r\n  color: #1ea7fd;\r\n  border-color: #1ea7fd;\r\n}\r\n",
-                    "styleUrl": "./link.component.css"
-                }
-            ],
-            "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 19
-            },
-            "implements": [
-                "OnInit"
-            ],
-            "accessors": {
-                "classes": {
-                    "name": "classes",
-                    "getSignature": {
-                        "name": "classes",
-                        "type": "",
-                        "returnType": "Array<string>",
-                        "line": 17
-                    }
-                }
-            },
-            "templateData": "<a [ngClass]=\"classes\" [href]=\"href\" [target]=\"target\">\n    <ng-content></ng-content>\n</a>"
-        },
-        {
             "name": "TextInputComponent",
-            "id": "component-TextInputComponent-3fc5b893c2664e57a059de03099eed2c54e7ad7b671aa06d1341a8bf8bfa6a61c51f6b6cb2d9c06333d390f6d750b58302c52ab8f7d62585d30fceefa2623b78",
+            "id": "component-TextInputComponent-9269e061c4408d99a3b194620a450186666d67d425c9b38750077950977de03e933140786f36e6a8b543a5bad23d348562bb15a4606c980f8f0992187c8b94b3",
             "file": "src/app/components/text-input/text-input.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -326,6 +225,15 @@
             "viewProviders": [],
             "inputsClass": [
                 {
+                    "name": "helperText",
+                    "defaultValue": "null",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 21,
+                    "type": "string | null",
+                    "decorators": []
+                },
+                {
                     "name": "label",
                     "defaultValue": "'Click'",
                     "deprecated": false,
@@ -342,6 +250,15 @@
                     "line": 14,
                     "type": "\"sm\" | \"md\" | \"lg\"",
                     "decorators": []
+                },
+                {
+                    "name": "type",
+                    "defaultValue": "'success'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 17,
+                    "type": "\"success\" | \"danger\" | \"warning\" | \"none\"",
+                    "decorators": []
                 }
             ],
             "outputsClass": [],
@@ -353,7 +270,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 18,
+                    "line": 25,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -365,11 +282,11 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-text-input',\n  templateUrl: './text-input.component.html',\n  styleUrls: ['./text-input.component.css']\n})\nexport class TextInputComponent implements OnInit {\n\n  @Input()\n  label: string = 'Click';\n\n  @Input()\n  size: 'sm' | 'md' | 'lg' = 'md';\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n  public get wrapperClasses(): string[] {\n    return ['storybook-input-wrapper'];\n    // return ['storybook-button', `storybook-button--${this.size}`, `storybook-button--${this.type}`];\n  }\n\n  public get classes(): string[] {\n    return ['storybook-input', `storybook-input--${this.size}`];\n  }\n\n}\n",
+            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-text-input',\n  templateUrl: './text-input.component.html',\n  styleUrls: ['./text-input.component.css']\n})\nexport class TextInputComponent implements OnInit {\n\n  @Input()\n  label: string = 'Click';\n\n  @Input()\n  size: 'sm' | 'md' | 'lg' = 'md';\n\n  @Input()\n  type: 'success' | 'danger' | 'warning' | 'none' = 'success';\n\n\n  @Input()\n  helperText: string | null = null;\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n  public get wrapperClasses(): string[] {\n    return ['storybook-input-wrapper'];\n    // return ['storybook-button', `storybook-button--${this.size}`, `storybook-button--${this.type}`];\n  }\n\n  public get classes(): string[] {\n    return ['storybook-input', `storybook-input--${this.size}`, `storybook-input--${this.type}`];\n  }\n\n  public get helperTextClasses(): string[] {\n    return ['storybook-helper-text', 'mt-2'];\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  width: 100%;\r\n  border: 1px solid #ced4da;\r\n  outline: none;\r\n  font-weight: 400;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.2rem;\r\n  font-size: 12px;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.4rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.6rem;\r\n  font-size: 16px;\r\n}\r\n",
+                    "data": ".storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  outline: none;\r\n  font-weight: 400;\r\n  width: 100%;\r\n}\r\n\r\n.storybook-input--none {\r\n  border: 1px solid #ced4da;\r\n}\r\n\r\n.storybook-input--success {\r\n  border: 1px solid #157347;\r\n}\r\n\r\n.storybook-input--danger {\r\n  border: 1px solid #dc3545;\r\n}\r\n\r\n.storybook-input--warning {\r\n  border: 1px solid #ffc107;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.2rem;\r\n  font-size: 12px;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.4rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.6rem;\r\n  font-size: 16px;\r\n}\r\n\r\n.storybook-helper-text {\r\n  font-size: 12px;\r\n  color: #b74444;\r\n  font-weight: bold;\r\n  margin-top: 0.2em;\r\n}\r\n",
                     "styleUrl": "./text-input.component.css"
                 }
             ],
@@ -380,7 +297,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "args": [],
-                "line": 14
+                "line": 21
             },
             "implements": [
                 "OnInit"
@@ -392,7 +309,7 @@
                         "name": "wrapperClasses",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 21
+                        "line": 28
                     }
                 },
                 "classes": {
@@ -401,11 +318,20 @@
                         "name": "classes",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 26
+                        "line": 33
+                    }
+                },
+                "helperTextClasses": {
+                    "name": "helperTextClasses",
+                    "getSignature": {
+                        "name": "helperTextClasses",
+                        "type": "[]",
+                        "returnType": "string[]",
+                        "line": 37
                     }
                 }
             },
-            "templateData": "<div [class]=\"wrapperClasses\">\n    <label for=\"\">{{label}}</label>\n    <input type=\"text\" [class]=\"classes\">\n</div>"
+            "templateData": "<div [class]=\"wrapperClasses\">\n    <label for=\"\">{{label}}</label>\n    <input type=\"text\" [class]=\"classes\">\n    <span *ngIf=\"helperText\" [class]=\"helperTextClasses\">{{helperText}}</span>\n</div>"
         }
     ],
     "modules": [
@@ -431,9 +357,6 @@
                         },
                         {
                             "name": "ButtonComponent"
-                        },
-                        {
-                            "name": "LinkComponent"
                         },
                         {
                             "name": "TextInputComponent"
@@ -506,16 +429,6 @@
     "miscellaneous": {
         "variables": [
             {
-                "name": "Base",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/components/link/stories/link.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -564,6 +477,16 @@
                 "deprecationMessage": "",
                 "type": "object",
                 "defaultValue": "{\n  production: false\n}"
+            },
+            {
+                "name": "HelperText",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/text-input/stories/text-input.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
             },
             {
                 "name": "Info",
@@ -668,16 +591,6 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/link/stories/link.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<LinkComponent>",
-                "defaultValue": "() => ({\r\n    component: LinkComponent,\r\n    props: {\r\n        color: 'primary',\r\n        content: 'Visit Storybook',\r\n        href: 'https://storybook.js.org/',\r\n        target: '_blank',\r\n    },\r\n    template: `\r\n      <app-link\r\n        [color]=\"color\"\r\n        [href]=\"href\"\r\n        [target]=\"target\"\r\n      >\r\n        {{ content }}\r\n      </app-link>`,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/components/text-input/stories/text-input.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -699,28 +612,6 @@
         "typealiases": [],
         "enumerations": [],
         "groupedVariables": {
-            "src/app/components/link/stories/link.stories.ts": [
-                {
-                    "name": "Base",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/link/stories/link.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/components/link/stories/link.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<LinkComponent>",
-                    "defaultValue": "() => ({\r\n    component: LinkComponent,\r\n    props: {\r\n        color: 'primary',\r\n        content: 'Visit Storybook',\r\n        href: 'https://storybook.js.org/',\r\n        target: '_blank',\r\n    },\r\n    template: `\r\n      <app-link\r\n        [color]=\"color\"\r\n        [href]=\"href\"\r\n        [target]=\"target\"\r\n      >\r\n        {{ content }}\r\n      </app-link>`,\r\n})"
-                }
-            ],
             "src/test.ts": [
                 {
                     "name": "context",
@@ -859,6 +750,16 @@
                 }
             ],
             "src/app/components/text-input/stories/text-input.stories.ts": [
+                {
+                    "name": "HelperText",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/text-input/stories/text-input.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
                 {
                     "name": "Large",
                     "ctype": "miscellaneous",
@@ -1032,30 +933,11 @@
                 "status": "low"
             },
             {
-                "filePath": "src/app/components/link/link.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "LinkComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/6",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/link/stories/link.stories.ts",
+                "filePath": "src/app/components/text-input/stories/text-input.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "Base",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/components/link/stories/link.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Template",
+                "name": "HelperText",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -1106,7 +988,7 @@
                 "linktype": "component",
                 "name": "TextInputComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/5",
+                "coverageCount": "0/7",
                 "status": "low"
             },
             {
