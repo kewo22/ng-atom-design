@@ -1,0 +1,57 @@
+.storybook-button {
+  /* font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /* font-weight: 700; */
+  border: 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  color: #ffffff;
+}
+.storybook-button--primary {
+  background-color: #0b5ed7;
+}
+.storybook-button--secondary {
+  background-color: #5c636a;
+}
+.storybook-button--success {
+  background-color: #157347;
+}
+.storybook-button--danger {
+  background-color: #dc3545;
+}
+.storybook-button--warning {
+  background-color: #ffc107;
+}
+.storybook-button--info {
+  background-color: #0dcaf0;
+}
+.storybook-button--light {
+  color: #000000;
+  background-color: #f8f9fa;
+}
+.storybook-button--dark {
+  background-color: #000000;
+  color: #f8f9fa;
+}
+.storybook-button--sm {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--md {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--lg {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.storybook-button:disabled,
+.storybook-button[disabled] {
+  // border: 1px solid #999999;
+  // background-color: #cccccc;
+  // color: #666666;
+  pointer-events: none;
+  opacity: .65;
+}
