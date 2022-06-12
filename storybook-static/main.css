@@ -1,2 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
-
+.red .layout {
+  background-color: red;
+}
+.red .text {
+  color: black;
+}
+.red .button {
+  background-color: white;
+  color: red;
+}
+.blue .layout {
+  background-color: blue;
+}
+.blue .text {
+  color: white;
+}
+.blue .button {
+  background-color: grey;
+  color: blue;
+}
+.green .layout {
+  background-color: green;
+}
+.green .text {
+  color: black;
+}
+.green .button {
+  background-color: white;
+  color: green;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

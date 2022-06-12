@@ -176,7 +176,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".storybook-button {\r\n  /* font-family: \"Nunito Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; */\r\n  /* font-weight: 700; */\r\n  border: 0;\r\n  border-radius: 0.5em;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  line-height: 1;\r\n  color: #ffffff;\r\n}\r\n.storybook-button--primary {\r\n  background-color: #0b5ed7;\r\n}\r\n.storybook-button--secondary {\r\n  background-color: #5c636a;\r\n}\r\n.storybook-button--success {\r\n  background-color: #157347;\r\n}\r\n.storybook-button--danger {\r\n  background-color: #dc3545;\r\n}\r\n.storybook-button--warning {\r\n  background-color: #ffc107;\r\n}\r\n.storybook-button--info {\r\n  background-color: #0dcaf0;\r\n}\r\n.storybook-button--light {\r\n  color: #000000;\r\n  background-color: #f8f9fa;\r\n}\r\n.storybook-button--dark {\r\n  background-color: #000000;\r\n  color: #f8f9fa;\r\n}\r\n.storybook-button--sm {\r\n  font-size: 12px;\r\n  padding: 10px 16px;\r\n}\r\n.storybook-button--md {\r\n  font-size: 14px;\r\n  padding: 11px 20px;\r\n}\r\n.storybook-button--lg {\r\n  font-size: 16px;\r\n  padding: 12px 24px;\r\n}\r\n\r\n.storybook-button:disabled,\r\n.storybook-button[disabled] {\r\n  // border: 1px solid #999999;\r\n  // background-color: #cccccc;\r\n  // color: #666666;\r\n  pointer-events: none;\r\n  opacity: .65;\r\n}\r\n",
+                    "data": "@import \"/src/styles.scss\";\r\n\r\n.storybook-button {\r\n  /* font-family: \"Nunito Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; */\r\n  /* font-weight: 700; */\r\n  border: 0;\r\n  border-radius: 0.5em;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  line-height: 1;\r\n  color: #ffffff;\r\n}\r\n.storybook-button--primary {\r\n  background-color: #0b5ed7;\r\n}\r\n.storybook-button--secondary {\r\n  background-color: #5c636a;\r\n}\r\n.storybook-button--success {\r\n  background-color: #157347;\r\n}\r\n.storybook-button--danger {\r\n  background-color: #dc3545;\r\n}\r\n.storybook-button--warning {\r\n  background-color: #ffc107;\r\n}\r\n.storybook-button--info {\r\n  background-color: #0dcaf0;\r\n}\r\n.storybook-button--light {\r\n  color: #000000;\r\n  background-color: #f8f9fa;\r\n}\r\n.storybook-button--dark {\r\n  background-color: #000000;\r\n  color: #f8f9fa;\r\n}\r\n.storybook-button--sm {\r\n  font-size: 12px;\r\n  padding: 10px 16px;\r\n}\r\n.storybook-button--md {\r\n  font-size: 14px;\r\n  padding: 11px 20px;\r\n}\r\n.storybook-button--lg {\r\n  font-size: 16px;\r\n  padding: 12px 24px;\r\n}\r\n\r\n.storybook-button:disabled,\r\n.storybook-button[disabled] {\r\n  // border: 1px solid #999999;\r\n  // background-color: #cccccc;\r\n  // color: #666666;\r\n  pointer-events: none;\r\n  opacity: .65;\r\n}\r\n",
                     "styleUrl": "./button.component.scss"
                 }
             ],
@@ -207,7 +207,7 @@
         },
         {
             "name": "TextInputComponent",
-            "id": "component-TextInputComponent-9a40cf6cc35673e49dd064b2bf888ca66bc08e4d6e53ff536a0891ade7c05fb57050176b2ade6b5df58254e38534b3d48b075bb225b1ea66221d7814a2132bbc",
+            "id": "component-TextInputComponent-5683960b00c8c5eba2a4fe873b71ce794051f308ed1ec095e6a915e222b6a09b7deb61bd185055ebbf13c25e0e69d680cccdb51831d03969492cd635ac0e5a36",
             "file": "src/app/components/text-input/text-input.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -216,7 +216,7 @@
             "providers": [],
             "selector": "app-text-input",
             "styleUrls": [
-                "./text-input.component.css"
+                "./text-input.component.scss"
             ],
             "styles": [],
             "templateUrl": [
@@ -229,17 +229,8 @@
                     "defaultValue": "null",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 21,
+                    "line": 20,
                     "type": "string | null",
-                    "decorators": []
-                },
-                {
-                    "name": "isValid",
-                    "defaultValue": "'success'",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 17,
-                    "type": "\"success\" | \"danger\" | \"warning\"",
                     "decorators": []
                 },
                 {
@@ -270,7 +261,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 25,
+                    "line": 24,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -282,12 +273,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-text-input',\n  templateUrl: './text-input.component.html',\n  styleUrls: ['./text-input.component.css']\n})\nexport class TextInputComponent implements OnInit {\n\n  @Input()\n  label: string = 'Click';\n\n  @Input()\n  size: 'sm' | 'md' | 'lg' = 'md';\n\n  @Input()\n  isValid: 'success' | 'danger' | 'warning' = 'success';\n\n\n  @Input()\n  helperText: string | null = null;\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n  public get labelClasses(): string[] {\n    return ['storybook-input-label'];\n  }\n\n  public get wrapperClasses(): string[] {\n    return ['storybook-input-wrapper'];\n    // return ['storybook-button', `storybook-button--${this.size}`, `storybook-button--${this.type}`];\n  }\n\n  public get inputClasses(): string[] {\n    return ['storybook-input', `storybook-input--${this.size}`, `storybook-input--${this.isValid}`];\n  }\n\n  public get helperTextClasses(): string[] {\n    return ['storybook-helper-text', 'mt-2'];\n  }\n\n}\n",
+            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-text-input',\n  templateUrl: './text-input.component.html',\n  styleUrls: ['./text-input.component.scss']\n})\nexport class TextInputComponent implements OnInit {\n\n  @Input()\n  label: string = 'Click';\n\n  @Input()\n  size: 'sm' | 'md' | 'lg' = 'md';\n\n  // @Input()\n  // type: 'success' | 'danger' | 'warning' = 'success';\n\n  @Input()\n  helperText: string | null = null;\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n  public get labelClasses(): string[] {\n    return ['storybook-input-label'];\n  }\n\n  public get wrapperClasses(): string[] {\n    return ['storybook-input-wrapper'];\n    // return ['storybook-button', `storybook-button--${this.size}`, `storybook-button--${this.type}`];\n  }\n\n  public get inputClasses(): string[] {\n    return ['storybook-input', `storybook-input--${this.size}`];\n    // `storybook-input--${this.type}`\n  }\n\n  public get helperTextClasses(): string[] {\n    return ['storybook-helper-text', 'mt-2'];\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  outline: none;\r\n  font-weight: 400;\r\n  width: 100%;\r\n  border-radius: 0.3rem;\r\n  border: 1px solid #ced4da;\r\n}\r\n\r\n.storybook-input-label {\r\n}\r\n\r\n.storybook-input--none {\r\n  /* border: 1px solid #ced4da; */\r\n}\r\n\r\n.storybook-input--success {\r\n  border: 1px solid #198754;\r\n}\r\n\r\n.storybook-input--danger {\r\n  border: 1px solid #dc3545;\r\n}\r\n\r\n.storybook-input--warning {\r\n  border: 1px solid #ffc107;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.25rem 0.5rem;\r\n  font-size: 12px;\r\n  border-radius: 0.2rem;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.5rem 1rem;\r\n  font-size: 16px;\r\n}\r\n\r\n.storybook-helper-text {\r\n  font-size: 12px;\r\n  color: #b74444;\r\n  font-weight: bold;\r\n  margin-top: 0.2em;\r\n}\r\n",
-                    "styleUrl": "./text-input.component.css"
+                    "data": "@import \"/src/styles.scss\";\r\n\r\n.storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  outline: none;\r\n  font-weight: 400;\r\n  width: 100%;\r\n  border-radius: 0.3rem;\r\n  border: 1px solid #ced4da;\r\n}\r\n\r\n.storybook-input-label {\r\n}\r\n\r\n.storybook-input--none {\r\n  /* border: 1px solid #ced4da; */\r\n}\r\n\r\n.storybook-input--success {\r\n  border: 1px solid #198754;\r\n}\r\n\r\n.storybook-input--danger {\r\n  border: 1px solid #dc3545;\r\n}\r\n\r\n.storybook-input--warning {\r\n  border: 1px solid #ffc107;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.25rem 0.5rem;\r\n  font-size: 12px;\r\n  border-radius: 0.2rem;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.5rem 1rem;\r\n  font-size: 16px;\r\n}\r\n\r\n.storybook-helper-text {\r\n  font-size: 10px;\r\n  color: #b74444;\r\n  font-weight: bold;\r\n  margin-top: 0.2em;\r\n}\r\n",
+                    "styleUrl": "./text-input.component.scss"
                 }
             ],
             "stylesData": "",
@@ -297,7 +288,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "args": [],
-                "line": 21
+                "line": 20
             },
             "implements": [
                 "OnInit"
@@ -309,7 +300,7 @@
                         "name": "labelClasses",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 28
+                        "line": 27
                     }
                 },
                 "wrapperClasses": {
@@ -318,7 +309,7 @@
                         "name": "wrapperClasses",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 32
+                        "line": 31
                     }
                 },
                 "inputClasses": {
@@ -327,7 +318,7 @@
                         "name": "inputClasses",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 37
+                        "line": 36
                     }
                 },
                 "helperTextClasses": {
@@ -997,7 +988,7 @@
                 "linktype": "component",
                 "name": "TextInputComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/7",
+                "coverageCount": "0/6",
                 "status": "low"
             },
             {
