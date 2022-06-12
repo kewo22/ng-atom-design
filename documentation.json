@@ -203,11 +203,11 @@
                     }
                 }
             },
-            "templateData": "<button [ngClass]=\"classes\" (click)=\"onClick($event)\" [disabled]=\"disabled\">\n    {{label}}\n</button>"
+            "templateData": "<button [class]=\"classes\" (click)=\"onClick($event)\" [disabled]=\"disabled\">\n    {{label}}\n</button>"
         },
         {
             "name": "TextInputComponent",
-            "id": "component-TextInputComponent-9269e061c4408d99a3b194620a450186666d67d425c9b38750077950977de03e933140786f36e6a8b543a5bad23d348562bb15a4606c980f8f0992187c8b94b3",
+            "id": "component-TextInputComponent-9a40cf6cc35673e49dd064b2bf888ca66bc08e4d6e53ff536a0891ade7c05fb57050176b2ade6b5df58254e38534b3d48b075bb225b1ea66221d7814a2132bbc",
             "file": "src/app/components/text-input/text-input.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -234,6 +234,15 @@
                     "decorators": []
                 },
                 {
+                    "name": "isValid",
+                    "defaultValue": "'success'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 17,
+                    "type": "\"success\" | \"danger\" | \"warning\"",
+                    "decorators": []
+                },
+                {
                     "name": "label",
                     "defaultValue": "'Click'",
                     "deprecated": false,
@@ -249,15 +258,6 @@
                     "deprecationMessage": "",
                     "line": 14,
                     "type": "\"sm\" | \"md\" | \"lg\"",
-                    "decorators": []
-                },
-                {
-                    "name": "type",
-                    "defaultValue": "'success'",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 17,
-                    "type": "\"success\" | \"danger\" | \"warning\" | \"none\"",
                     "decorators": []
                 }
             ],
@@ -282,11 +282,11 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-text-input',\n  templateUrl: './text-input.component.html',\n  styleUrls: ['./text-input.component.css']\n})\nexport class TextInputComponent implements OnInit {\n\n  @Input()\n  label: string = 'Click';\n\n  @Input()\n  size: 'sm' | 'md' | 'lg' = 'md';\n\n  @Input()\n  type: 'success' | 'danger' | 'warning' | 'none' = 'success';\n\n\n  @Input()\n  helperText: string | null = null;\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n  public get wrapperClasses(): string[] {\n    return ['storybook-input-wrapper'];\n    // return ['storybook-button', `storybook-button--${this.size}`, `storybook-button--${this.type}`];\n  }\n\n  public get classes(): string[] {\n    return ['storybook-input', `storybook-input--${this.size}`, `storybook-input--${this.type}`];\n  }\n\n  public get helperTextClasses(): string[] {\n    return ['storybook-helper-text', 'mt-2'];\n  }\n\n}\n",
+            "sourceCode": "import { Component, Input, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-text-input',\n  templateUrl: './text-input.component.html',\n  styleUrls: ['./text-input.component.css']\n})\nexport class TextInputComponent implements OnInit {\n\n  @Input()\n  label: string = 'Click';\n\n  @Input()\n  size: 'sm' | 'md' | 'lg' = 'md';\n\n  @Input()\n  isValid: 'success' | 'danger' | 'warning' = 'success';\n\n\n  @Input()\n  helperText: string | null = null;\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n  public get labelClasses(): string[] {\n    return ['storybook-input-label'];\n  }\n\n  public get wrapperClasses(): string[] {\n    return ['storybook-input-wrapper'];\n    // return ['storybook-button', `storybook-button--${this.size}`, `storybook-button--${this.type}`];\n  }\n\n  public get inputClasses(): string[] {\n    return ['storybook-input', `storybook-input--${this.size}`, `storybook-input--${this.isValid}`];\n  }\n\n  public get helperTextClasses(): string[] {\n    return ['storybook-helper-text', 'mt-2'];\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": ".storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  outline: none;\r\n  font-weight: 400;\r\n  width: 100%;\r\n}\r\n\r\n.storybook-input--none {\r\n  border: 1px solid #ced4da;\r\n}\r\n\r\n.storybook-input--success {\r\n  border: 1px solid #157347;\r\n}\r\n\r\n.storybook-input--danger {\r\n  border: 1px solid #dc3545;\r\n}\r\n\r\n.storybook-input--warning {\r\n  border: 1px solid #ffc107;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.2rem;\r\n  font-size: 12px;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.4rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.6rem;\r\n  font-size: 16px;\r\n}\r\n\r\n.storybook-helper-text {\r\n  font-size: 12px;\r\n  color: #b74444;\r\n  font-weight: bold;\r\n  margin-top: 0.2em;\r\n}\r\n",
+                    "data": ".storybook-input-wrapper {\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 200px;\r\n  width: 200px;\r\n}\r\n\r\n.storybook-input {\r\n  outline: none;\r\n  font-weight: 400;\r\n  width: 100%;\r\n  border-radius: 0.3rem;\r\n  border: 1px solid #ced4da;\r\n}\r\n\r\n.storybook-input-label {\r\n}\r\n\r\n.storybook-input--none {\r\n  /* border: 1px solid #ced4da; */\r\n}\r\n\r\n.storybook-input--success {\r\n  border: 1px solid #198754;\r\n}\r\n\r\n.storybook-input--danger {\r\n  border: 1px solid #dc3545;\r\n}\r\n\r\n.storybook-input--warning {\r\n  border: 1px solid #ffc107;\r\n}\r\n\r\n.storybook-input--sm {\r\n  padding: 0.25rem 0.5rem;\r\n  font-size: 12px;\r\n  border-radius: 0.2rem;\r\n}\r\n\r\n.storybook-input--md {\r\n  padding: 0.375rem 0.75rem;\r\n  font-size: 14px;\r\n}\r\n\r\n.storybook-input--lg {\r\n  padding: 0.5rem 1rem;\r\n  font-size: 16px;\r\n}\r\n\r\n.storybook-helper-text {\r\n  font-size: 12px;\r\n  color: #b74444;\r\n  font-weight: bold;\r\n  margin-top: 0.2em;\r\n}\r\n",
                     "styleUrl": "./text-input.component.css"
                 }
             ],
@@ -303,22 +303,31 @@
                 "OnInit"
             ],
             "accessors": {
+                "labelClasses": {
+                    "name": "labelClasses",
+                    "getSignature": {
+                        "name": "labelClasses",
+                        "type": "[]",
+                        "returnType": "string[]",
+                        "line": 28
+                    }
+                },
                 "wrapperClasses": {
                     "name": "wrapperClasses",
                     "getSignature": {
                         "name": "wrapperClasses",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 28
+                        "line": 32
                     }
                 },
-                "classes": {
-                    "name": "classes",
+                "inputClasses": {
+                    "name": "inputClasses",
                     "getSignature": {
-                        "name": "classes",
+                        "name": "inputClasses",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 33
+                        "line": 37
                     }
                 },
                 "helperTextClasses": {
@@ -327,23 +336,23 @@
                         "name": "helperTextClasses",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 37
+                        "line": 41
                     }
                 }
             },
-            "templateData": "<div [class]=\"wrapperClasses\">\n    <label for=\"\">{{label}}</label>\n    <input type=\"text\" [class]=\"classes\">\n    <span *ngIf=\"helperText\" [class]=\"helperTextClasses\">{{helperText}}</span>\n</div>"
+            "templateData": "<div [class]=\"wrapperClasses\">\n    <label for=\"\" [class]=\"labelClasses\">{{label}}</label>\n    <input type=\"text\" [class]=\"inputClasses\">\n    <span *ngIf=\"helperText\" [class]=\"helperTextClasses\">{{helperText}}</span>\n</div>"
         }
     ],
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-6bc8c7fffdb1da3a7275d7d9dfe9b3c68a0eb5813cacaa7e6112618d4630a4a442e8b2d5900fd5615d162b3936882ce3a55585c9fb02db7c002220b62a0b0aaf",
+            "id": "module-AppModule-2311e07c0d342db3263a2ce607285ab09e2356d0abcabcb742eb3b2853623a2c0e5bf639f78dbfc5aa81147f4bc1b44b56af9ca584f29dc9cd08e3ddea6f6882",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { LinkComponent } from './components/link/link.component';\nimport { ButtonComponent } from './components/button/button.component';\nimport { TextInputComponent } from './components/text-input/text-input.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    LinkComponent,\n    ButtonComponent,\n    TextInputComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { ButtonComponent } from './components/button/button.component';\nimport { TextInputComponent } from './components/text-input/text-input.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    ButtonComponent,\n    TextInputComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
             "children": [
                 {
                     "type": "providers",

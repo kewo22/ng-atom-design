@@ -1,3 +1,5 @@
+@import "/src/styles.scss";
+
 .storybook-input-wrapper {
   display: flex;
   flex-direction: column;
@@ -9,14 +11,19 @@
   outline: none;
   font-weight: 400;
   width: 100%;
-}
-
-.storybook-input--none {
+  border-radius: 0.3rem;
   border: 1px solid #ced4da;
 }
 
+.storybook-input-label {
+}
+
+.storybook-input--none {
+  /* border: 1px solid #ced4da; */
+}
+
 .storybook-input--success {
-  border: 1px solid #157347;
+  border: 1px solid #198754;
 }
 
 .storybook-input--danger {
@@ -28,22 +35,23 @@
 }
 
 .storybook-input--sm {
-  padding: 0.2rem;
+  padding: 0.25rem 0.5rem;
   font-size: 12px;
+  border-radius: 0.2rem;
 }
 
 .storybook-input--md {
-  padding: 0.4rem;
+  padding: 0.375rem 0.75rem;
   font-size: 14px;
 }
 
 .storybook-input--lg {
-  padding: 0.6rem;
+  padding: 0.5rem 1rem;
   font-size: 16px;
 }
 
 .storybook-helper-text {
-  font-size: 12px;
+  font-size: 10px;
   color: #b74444;
   font-weight: bold;
   margin-top: 0.2em;
